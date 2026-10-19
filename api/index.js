@@ -1,15 +1,15 @@
 import express from 'express';
 import cors from 'cors';
-import productRoutes from './routes/products.js';
-import categoryRoutes from './routes/categories.js';
-import cartRoutes from './routes/cart.js';
-import orderRoutes from './routes/orders.js';
-import wishlistRoutes from './routes/wishlist.js';
-import userRoutes from './routes/users.js';
-import adminRoutes from './routes/admin.js';
-import uploadRoutes from './routes/upload.js';
-import notificationRoutes from './routes/notifications.js';
-import { errorHandler } from './middleware/errorHandler.js';
+import productRoutes from '../server/routes/products.js';
+import categoryRoutes from '../server/routes/categories.js';
+import cartRoutes from '../server/routes/cart.js';
+import orderRoutes from '../server/routes/orders.js';
+import wishlistRoutes from '../server/routes/wishlist.js';
+import userRoutes from '../server/routes/users.js';
+import adminRoutes from '../server/routes/admin.js';
+import uploadRoutes from '../server/routes/upload.js';
+import notificationRoutes from '../server/routes/notifications.js';
+import { errorHandler } from '../server/middleware/errorHandler.js';
 
 const app = express();
 
